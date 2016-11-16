@@ -1,0 +1,72 @@
+<mvc:View 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	controllerName="zhvr0010.controller.zhvr0010_0010">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+	<l:VerticalLayout
+		class="sapUiContentPadding"
+		width="100%">
+		<l:content>
+<Panel expandable="true" expanded="false" headerText="Panel with a header text" width="auto" class="sapUiResponsiveMargin">
+	<content>
+						<Input width="100%" id="__input0" value="12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"/>
+						<Label text="12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678" width="100%" id="__label0"/>
+					    <Label text="12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678" width="100%" id="__label3"/>
+	</content>
+</Panel>
+<Panel expandable="true" expanded="false" width="auto" class="sapUiResponsiveMargin">
+	<headerToolbar>
+		<Toolbar height="3rem">
+			<Title text="Custom Toolbar with a header text" />
+			<ToolbarSpacer />
+			<Button icon="sap-icon://settings" />
+			<Button icon="sap-icon://drop-down-list" />
+		</Toolbar>
+	</headerToolbar>
+	<content>
+					    <Label xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" text="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四" width="100%" id="__label0_copy"/>
+					    <Image xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" width="140px" height="180px" id="yourImageid" src="/zhyi0010/images/hoimi.jpg" activeSrc="/zhyi0010/images/hoimi.jpg"/>
+	</content>
+</Panel>
+			<Button
+				text="Approve"
+				width="250px"
+				press="onApproveDialog"
+				class="sapUiSmallMarginBottom" />
+ 
+			<Button
+				text="Reject"
+				width="250px"
+				press="onRejectDialog"
+				class="sapUiSmallMarginBottom" />
+ 
+			<Button
+				text="Submit (mandatory note)"
+				width="250px"
+				press="onSubmitDialog"
+				class="sapUiSmallMarginBottom" />
+ 
+			<Button
+				text="Confirm (optional note)"
+				width="250px"
+				press="onConfirmDialog"
+				class="sapUiSmallMarginBottom" />
+	<l:Grid id="__grid0">
+	    <l:content>
+	        <ObjectListItem counter="0" title="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四" number="24" numberUnit="eur" intro="Category" icon="sap-icon://laptop" markFavorite="false" markFlagged="false" showMarkers="false" id="__item3"/>
+	        <ObjectListItem counter="0" title="projector" number="12" numberUnit="eur" intro="Category" icon="sap-icon://projector" markFavorite="false" markFlagged="false" showMarkers="false" id="__item4"/>
+	        <ObjectListItem counter="0" title="12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678" number="12" numberUnit="eur" intro="Category" icon="sap-icon://print" markFavorite="false" markFlagged="false" showMarkers="false" id="__item5"/>
+	        <ObjectListItem counter="0" title="leads" number="57" numberUnit="eur" intro="Category" icon="sap-icon://leads" markFavorite="false" markFlagged="false" showMarkers="false" id="__item6"/>
+	        <InputListItem type="Navigation" counter="0" label="Customers List" id="__item7"/>
+	        <InputListItem type="Navigation" counter="0" label="Leads list" id="__item8"/></l:content>
+	</l:Grid>
+		</l:content>
+	</l:VerticalLayout>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

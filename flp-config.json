@@ -1,0 +1,34 @@
+{
+    "application": {
+        "id": "",
+        "title": "zhvr0010",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#zhvr0010-Display",
+        "navigationComponentName": "zhvr0010",
+        "intentSemanticObject": "zhvr0010",
+        "intentAction": "Display",
+        "html5ApplicationName": "zhvr0010",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "5403314d-9db4-4142-860a-603815e4318d"
+        ],
+        "contentPackages": [
+            "24181ae7-795e-4d80-89dd-5ac88e305b83"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Titlezhvr0010v1.0.0",
+        "subtitle": "Subtitlezhvr0010v1.0.0",
+        "searchKeywords": "Titlezhvr0010v1.0.0,Subtitlezhvr0010v1.0.0",
+        "displayIconUrl": "sap-icon://wounds-doc",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
