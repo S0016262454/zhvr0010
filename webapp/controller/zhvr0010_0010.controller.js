@@ -29,10 +29,10 @@ var locale = sap.ui.getCore().getConfiguration().getLanguage();
     sap.ui.getCore().setModel(oBundle, "i18n");
 
 
-/*var path = jQuery.sap.getModulePath("yourComponent", "/zhyi0010/images/hoimi.jpg");
+var path = jQuery.sap.getModulePath("yourComponent", "/zhyi0010/images/hoimi.jpg");
 var image = $("#yourImageid");
 image.attr("src", path);
-*/
+
 var img = new sap.m.Image({
    src : "/zhyi0010/images/hoimi.jpg"
 });
@@ -41,11 +41,11 @@ var img = new sap.m.Image({
 
 	jQuery.sap.log.warning("This should never have happened!");
 	
-	var sText = oBundle.getText("appTitle");
+/*	var sText = oBundle.getText("appTitle");
 	
 	jQuery.sap.log.error("appTitle : " + sText);
 	
-	return Controller.extend("zhvr0010.controller.zhvr0010_0010", {
+*/	return Controller.extend("zhvr0010.controller.zhvr0010_0010", {
 
 		onApproveDialog: function () {
 			var dialog = new Dialog({

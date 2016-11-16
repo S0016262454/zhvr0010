@@ -4,7 +4,7 @@
 		"_version": "1.1.0",
 		"id": "zhvr0010",
 		"type": "application",
-		"i18n": "/zhyi0010/i18n/i18n.properties",
+		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
@@ -57,9 +57,7 @@
 		"models": {
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
-				"settings": {
-					"bundleName": "zhyiß0010.i18n.i18n"
-				}
+				"uri": "/zhyi0010/i18n/i18n.properties"
 			}
 		},
 		"routing": {

@@ -6,7 +6,7 @@
 	controllerName="zhvr0010.controller.zhvr0010_0010">
 	<App>
 		<pages>
-			<Page title="{i18n>title}">
+			<Page title="{i18n>appTitle}">
 	<l:VerticalLayout
 		class="sapUiContentPadding"
 		width="100%">
@@ -21,7 +21,7 @@
 <Panel expandable="true" expanded="false" width="auto" class="sapUiResponsiveMargin">
 	<headerToolbar>
 		<Toolbar height="3rem">
-			<Title text="Custom Toolbar with a header text" />
+			<Title text="{i18n>appDescription}" />
 			<ToolbarSpacer />
 			<Button icon="sap-icon://settings" />
 			<Button icon="sap-icon://drop-down-list" />

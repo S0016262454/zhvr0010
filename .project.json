@@ -7,7 +7,7 @@
     "targetFolder": "dist",
     "sourceFolder": "webapp",
     "buildRequired": false,
-    "lastBuildDateTime": "Wed, 16 Nov 2016 10:43:41 GMT"
+    "lastBuildDateTime": "Wed, 16 Nov 2016 15:46:45 GMT"
   },
   "generation": [
     {
@@ -48,6 +48,6 @@
   "hcpdeploy": {
     "account": "cba8390ea",
     "name": "zhvr0010",
-    "lastVersionWeTriedToDeploy": "1.0.0"
+    "lastVersionWeTriedToDeploy": "1.0.1"
   }
 }
